@@ -11,15 +11,15 @@ Feature: Tivixlabs - Car rent
         And I click on the rent button of the selected car 3
         And I click on the rent button
 
-    # Scenario: Correct completion of the car rent form
+    Scenario: Correct completion of the car rent form
 
-    #     And I enter a first name 'Janusz'
-    #     And I enter a last name 'Testowe'
-    #     And I enter a card number '4916158542498077'
-    #     And I enter an email 'test@gmail.com'
-    #     And I submit the rent form
+        And I enter a first name 'Janusz'
+        And I enter a last name 'Testowe'
+        And I enter a card number '4916158542498077'
+        And I enter an email 'test@gmail.com'
+        And I submit the rent form
         
-    #     Then I should be presented with a message 'Success'
+        Then I should be presented with a message 'Success'
     
 
     Scenario Outline: Incorrect completion of the car rent form - invalid data provided
